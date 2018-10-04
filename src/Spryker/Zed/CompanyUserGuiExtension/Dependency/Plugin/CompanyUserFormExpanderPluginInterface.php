@@ -5,7 +5,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\CompanyUserGuiExtension\Communication\Plugin;
+namespace Spryker\Zed\CompanyUserGuiExtension\Dependency\Plugin;
 
 use Symfony\Component\Form\FormBuilderInterface;
 
@@ -21,5 +21,5 @@ interface CompanyUserFormExpanderPluginInterface
      *
      * @return \Symfony\Component\Form\FormBuilderInterface
      */
-    public function buildForm(FormBuilderInterface $builder): FormBuilderInterface;
+    public function expand(FormBuilderInterface $builder): FormBuilderInterface;
 }
