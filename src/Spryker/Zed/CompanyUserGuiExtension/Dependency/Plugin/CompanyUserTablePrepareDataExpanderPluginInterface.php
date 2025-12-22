@@ -7,6 +7,9 @@
 
 namespace Spryker\Zed\CompanyUserGuiExtension\Dependency\Plugin;
 
+/**
+ * @deprecated Use {@link \Spryker\Zed\CompanyUserGuiExtension\Dependency\Plugin\CompanyUserTableBulkDataExpanderPluginInterface} instead.
+ */
 interface CompanyUserTablePrepareDataExpanderPluginInterface
 {
     /**
