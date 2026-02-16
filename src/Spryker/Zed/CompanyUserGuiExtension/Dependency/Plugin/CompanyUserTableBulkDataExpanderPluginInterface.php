@@ -16,9 +16,9 @@ interface CompanyUserTableBulkDataExpanderPluginInterface
      *
      * @api
      *
-     * @param list<array<string, mixed>> $companyUserDataTableRows
+     * @param array<array<string, mixed>> $companyUserDataTableRows
      *
-     * @return list<array<string, mixed>>
+     * @return array<array<string, mixed>>
      */
     public function expandData(array $companyUserDataTableRows): array;
 }
